@@ -10,4 +10,4 @@ class TestMathOperations(unittest.TestCase):
 
     def test_divide_by_zero(self):
         with self.assertRaises(ZeroDivisionError):
-            div = 1 / 0
+            div = 1 / 0  # noqa: F841

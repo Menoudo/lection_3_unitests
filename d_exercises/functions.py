@@ -1,3 +1,6 @@
+__all__ = ("is_prime", "factorial", "divide")
+
+
 def is_prime(n):
     if n <= 1:
         return False

@@ -1,12 +1,10 @@
-from d_exercises.functions import *
+# from d_exercises.functions import *
 
 # **Задание 1**: Напиши тесты для следующих функций:
 # - is_prime
 # - factorial
 
 #  **Задание 2**: Создавай фикстуры setUp и tearDown для подготовки данных для тестов
-
-
 
 
 # **Задание 3**: Напиши тесты, которые проверяют выброс исключений:
