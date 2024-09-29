@@ -13,3 +13,7 @@ class TestMathOperations(unittest.TestCase):
     def test_addition(self):
         result = self.x + self.y
         self.assertEqual(result, 3)
+
+    def test_subtraction(self):
+        result = self.x - self.y
+        self.assertEqual(result, -1)

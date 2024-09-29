@@ -8,6 +8,9 @@ class TestMathOperations(unittest.TestCase):
     def test_subtraction(self):
         self.assertEqual(5 - 3, 2)
 
+    def test_multiply(self):
+        self.assertEqual(2 * 2, 4)
+
     def test_divide_by_zero(self):
         with self.assertRaises(ZeroDivisionError):
             div = 1 / 0  # noqa: F841
