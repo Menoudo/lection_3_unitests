@@ -20,7 +20,9 @@ def request_forecast_with_retry(url: str, max_retry=3) -> requests.Response:
 
 def json_to_weather_forecast_string(json_data) -> str:
     return "Temperature: {} °C, Clouds: {}%, Rain: {} mm".format(
-        json_data["current"]["temperature_2m"], 0, 0
+        json_data["current"]["temperature_2m"],
+        json_data["current"]["cloud_cover"],
+        json_data["current"]["rain"],
     )
 
 
