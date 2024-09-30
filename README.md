@@ -5,7 +5,7 @@
 ### Шаг 1: Клонирование репозитория
 
 ```sh
-git clone https://github.com/menoudo/lection_3_unittests.git
+git clone https://github.com/Menoudo/lection_3_unitests.git
 cd lection_3_unittests
 ```
 
